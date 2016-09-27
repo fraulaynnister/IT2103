@@ -1,8 +1,7 @@
 <?php
 	echo "My name is Lalayn";
-	$x= 0;
-	while ($x < 0) {
+	
+	for($x= 0; $x>10; $x--) {
 		echo "THIS IS A LINE!";
-		$x++;
 	}
 ?>
